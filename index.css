@@ -1,0 +1,381 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #31006e;
+  --accent-color: #ec008c;
+}
+
+body {
+  font-family: "Avenir-Roman", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 23px 15px;
+}
+
+header {
+  background: var(--primary-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#logo {
+  width: 190px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.nav-menu {
+  list-style-type: none;
+}
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+}
+.nav-menu li a.active {
+  color: var(--accent-color);
+}
+
+.nav-menu li a:hover {
+  color: var(--accent-color);
+}
+#hero {
+  margin-top: 93px;
+  color: white;
+  background: var(--primary-color)
+    url("https://www.cotiviti.com.np/sites/all/modules/banner/img/banner-pattern.png")
+    right center no-repeat;
+}
+#hero h2 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+.hero-box {
+  background: white;
+  padding: 2rem;
+  margin-top: 2.5rem;
+}
+.hero-box h1 {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+.hero-box p {
+  font-size: 1.125rem;
+  color: var(--accent-color);
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  margin: 0;
+  color: #2e3192;
+  font-family: "Avenir-Light", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.5em;
+  padding-bottom: 20px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+#whoweare {
+  background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/building.png)
+    no-repeat 80% 100%;
+  padding: 80px 0;
+}
+
+#whoweare .section-title {
+  text-align: left;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+a.more-link {
+  padding: 5px 10px;
+  border: 1px solid #2e3192;
+  background: transparent;
+  border: 1px solid #10069f;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #10069f;
+  text-align: center;
+  padding: 10px 15px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  transition: 0.2s;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+a.more-link:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+  border: 1px solid var(--accent-color);
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+
+#workwithus {
+  background: #00adee;
+}
+
+#workwithus {
+  text-align: center;
+}
+
+#workwithus a.more-link {
+  margin: 0 auto;
+}
+
+section#bg-attached {
+  background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/parallax-home.jpg)
+    no-repeat center;
+  background-attachment: fixed;
+}
+
+section#bg-attached .container {
+  height: 400px;
+}
+
+.left {
+  width: 50%;
+  display: inline-block;
+  background: red;
+  height: 200px;
+}
+
+.right {
+  width: 50%;
+  display: inline-block;
+  background: blue;
+  height: 200px;
+}
+ul#join-team {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  list-style-type: none;
+  margin-bottom: 0.75em;
+}
+ul#join-team > li {
+  border-bottom: 1px solid #ebebeb;
+}
+ul#join-team > li > a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: 1.5em;
+  padding: 10px 0;
+  display: block;
+  background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+ul#join-team > li > a:hover {
+  color: var(--primary-color);
+}
+
+section h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+#team {
+  padding-bottom: 120px;
+  background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/join.png)
+    no-repeat bottom center;
+}
+
+h2.section-title.ta-left {
+  text-align: left;
+}
+
+#initiative {
+  background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/csr-section-bg.jpg)
+    #2c3990 no-repeat bottom center;
+}
+
+.text-white,
+.text-white h2.section-title {
+  color: white;
+}
+.text-white a.more-link {
+  color: white;
+  border-color: white;
+}
+
+footer {
+  background-color: #eaeaea;
+  padding-top: 35px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.w-66 {
+  width: 66%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+h2.block-title {
+  margin: 0;
+  color: #2e3192;
+  font-family: "Avenir-Light", Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+
+ul#footer-links {
+  list-style-type: none;
+}
+
+ul#footer-links > li > a {
+  color: #666;
+  text-decoration: none;
+}
+
+ul#footer-links > li > a:hover {
+  color: var(--accent-color);
+}
+
+#scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  background: orange;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: none;
+}
+
+@media (max-width: 575px) {
+  .hero-box {
+    width: 100%;
+  }
+  .hero-box h1,
+  .section-title {
+    font-size: 2rem;
+  }
+  .hero-box p {
+    font-size: 1rem;
+  }
+  section,
+  #whoweare {
+    padding-top: 3px;
+    padding-bottom: 30px;
+  }
+  #hero h2 {
+    font-size: 24px;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  a.more-link {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  ul#join-team > li > a {
+    font-size: 1rem;
+  }
+  #initiative .flex {
+    flex-direction: column;
+  }
+  #whoweare {
+    padding-bottom: 100px;
+    background-size: 200px auto;
+    background-position: bottom center;
+  }
+  #team {
+    padding-bottom: 0;
+  }
+  header {
+    padding-top: 15px;
+    /* pv: 15px; */
+  }
+  header .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #hero {
+    margin-top: 92px;
+  }
+  footer .w-66 {
+    width: 100%;
+  }
+  footer .flex {
+    flex-wrap: wrap;
+  }
+  footer .w100 {
+    width: 33%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1024px) {
+  .col-50 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  body {
+    background: black;
+  }
+  ul#footer-links > li > a:hover {
+    color: white;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  body {
+    background: black;
+  }
+  ul#footer-links > li > a:hover {
+    color: var(--accent-color);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 90%;
+  }
+}
